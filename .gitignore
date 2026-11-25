@@ -1,0 +1,25 @@
+# Dependencies (Wajib di-ignore agar tidak corrupt di Vercel/Linux)
+node_modules/
+*/node_modules/
+
+# Production build outputs
+dist/
+build/
+.output/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
